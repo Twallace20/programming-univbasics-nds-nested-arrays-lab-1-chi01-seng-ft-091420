@@ -47,8 +47,13 @@ def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
+<<<<<<< HEAD
   sorted_matrix[1] = [
     ["Grapefruit", "Pineapple", "Lemons", "Watermelon", "Eggplant"]
     ]
+=======
+  sorted_matrix[1][2]
+  sorted_matrix[1][2] = ["Lemons"]
+>>>>>>> 4f9e00626916292fbd72ecbaa77037bb01b27ab3
  
 end
